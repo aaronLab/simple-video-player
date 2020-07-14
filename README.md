@@ -2,7 +2,7 @@
 A fancy & simple video player on Vanilla Javascript with CSS.
 
 ## Preview
-- https://aaronlab.github.io/simple-video-player/
+- https://aaronlab.github.io/simple-video-player/index.html
 
 ## Features
 - Play / Pause by using space bar / clicking video
