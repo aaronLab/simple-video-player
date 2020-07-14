@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Player</title>
+    <meta charset="UTF-8" />
+    <!-- Use your fontawesome kit below -->
+    <script
+      src="https://kit.fontawesome.com/949fce2245.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- You should link "styles.css" file -->
+    <link rel="stylesheet" href="./src/styles.css" />
+  </head>
+  <body>
+    <!-- Copy and Paset all Content in the body -->
+    <!-- Do not remove class name or id -->
+    <div id="videoPlayer">
+      <!-- Change video source location below -->
+      <video src="./samplevideo.mp4"></video>
+      <div id="controls" class="videoPlayer__controls displayNone">
+        <div class="videoPlayer__column">
+          <span id="playBtn"><i class="fas fa-play"></i></span>
+        </div>
+        <div class="videoPlayer__column">
+          <div id="progressBar">
+            <div id="inProgressBar"></div>
+          </div>
+        </div>
+        <div class="videoPlayer__column">
+          <span id="currentTime">00:00:00</span>
+          <span> / </span>
+          <span id="totalTime">00:00:00</span>
+        </div>
+        <div class="videoPlayer__column">
+          <span id="volumnBtn"><i class="fas fa-volume-up"></i></span>
+        </div>
+      </div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>

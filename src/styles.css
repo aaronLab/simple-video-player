@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+i {
+  cursor: pointer;
+}
+
+.displayNone {
+  display: none;
+}
+
+#videoPlayer {
+  width: 100%;
+  /* change max-width to adjust the width of your video */
+  max-width: 1024px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+video {
+  width: 100%;
+}
+
+.videoPlayer__controls {
+  width: 80%;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* control background color */
+  background-color: #afaaaab6;
+  color: white;
+  position: absolute;
+  bottom: 10px;
+  font-size: 12px;
+}
+
+#progressBar {
+  width: 100%;
+  /* change max-width to adjust the width of your video */
+  min-width: 600px;
+  height: 5px;
+  /* progress bar background color */
+  background-color: #e6dcdc71;
+  cursor: pointer;
+}
+
+#inProgressBar {
+  width: 0;
+  height: 5px;
+  /* progress bar progression color */
+  background-color: #e2ca3e;
+}
