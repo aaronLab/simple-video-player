@@ -13,10 +13,6 @@ i {
   cursor: pointer;
 }
 
-.displayNone {
-  display: none;
-}
-
 #videoPlayer {
   width: 100%;
   /* change max-width to adjust the width of your video */
@@ -59,4 +55,8 @@ video {
   height: 5px;
   /* progress bar progression color */
   background-color: #e2ca3e;
+}
+
+.displayNone {
+  display: none;
 }
